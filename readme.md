@@ -1,4 +1,4 @@
-# String Similarity Comparison
+# Similarity Score
 
 ## Overview
 
@@ -13,8 +13,8 @@ This TypeScript implementation provides a function to compare the similarity bet
 
 ## Installation
 
-1. Clone this repository or copy the TypeScript file into your project.
-2. Ensure you have TypeScript installed in your project.
+1. Run `npm i dromo-similarity-score`
+2. Import into file: `import similarityScore from 'dromo-similarity-score'`
 
 ## Usage
 
