@@ -13,13 +13,14 @@ This TypeScript implementation provides a function to compare the similarity bet
 
 ## Installation
 
-1. Run `npm i dromo-similarity-score`
-2. Import into file: `import similarityScore from 'dromo-similarity-score'`
+```
+npm i dromo-similarity-score
+``` 
 
 ## Usage
 
 ```typescript
-import { compareSimilarity } from "./string-similarity";
+import similarityScore from "dromo-similarity-score";
 
 const similarity = compareSimilarity("hello", "hallo");
 console.log(similarity); // Outputs a number between 0 and 1
