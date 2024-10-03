@@ -1,13 +1,19 @@
 {
   "name": "dromo-similarity-score",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "similarity",
+    "jaro-winkler",
+    "jaro",
+    "winkler",
+    "string"
+  ],
   "author": "",
   "license": "ISC",
   "description": "Compare two strings and return the Jaro-Winkler similarity score.",
@@ -19,5 +25,6 @@
     "README.md",
     "package.json",
     "LICENSE"
-  ]
+  ],
+  "repository": "https://github.com/dromorales/dromo-similarity-score"
 }
