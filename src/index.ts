@@ -1,4 +1,4 @@
-import { jaroWinkler } from "./jaroWinkler";
+import { jaroWinkler } from "./jaroWinkler.ts";
 
 export default similarityScore;
 function similarityScore(str1: string, str2: string): number {
