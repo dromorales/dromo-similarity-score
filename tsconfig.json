@@ -1,8 +1,7 @@
 {
   "files": ["src/index.ts", "./src/jaroWinkler.ts", "./src/calculateJaro.ts", "./src/commonPrefixLength.ts"],
   "compilerOptions": {
-    "target": "esnext",
-    "module": "NodeNext",
+    "target": "es6",
     "declaration": true,
     "outDir": "./dist",
     "noEmit": true,
