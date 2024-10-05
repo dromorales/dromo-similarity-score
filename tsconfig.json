@@ -1,31 +1,14 @@
 {
-  "files": ["src/index.ts", "./src/jaroWinkler.ts", "./src/calculateJaro.ts", "./src/commonPrefixLength.ts"],
+  "files": ["src/index.ts"],
   "compilerOptions": {
-    "lib": ["es2022"],
-    "module": "commonjs",
-    "target": "es2022",
-    "declaration": true,
+    "target": "ESNext",
+    "module": "ESNext",
     "outDir": "./dist",
-    "noEmit": true,
     "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictBindCallApply": true,
-    "strictPropertyInitialization": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": true,
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,   
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true, 
-    "allowImportingTsExtensions": true
-  }, 
+    "declaration": true
+  },
   "include": ["src/**/*"]
 }
